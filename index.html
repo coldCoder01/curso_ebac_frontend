@@ -9,12 +9,14 @@
     <h1>Formulário</h1>
     <h2>Insira os seus dados</h2>
     <form>
-        <input type="text" size="25" placeholder="Seu nome"/><br/>
+        <label for="text">Nome:</label>
+        <input type="text" size="25" id="text" placeholder="Digite aqui o seu nome"/><br/>
         <br/>
-        <label for="email">Seu email</label>
-        <input type="email" size="25" id="email" name="email" placeholder="Seu email"><br/>
+        <label for="email">E-mail:</label>
+        <input type="email" size="25" id="email" name="email" placeholder="Digite aqui o seu email"><br/>
         <br/>
-        <input type="password" size="10" placeholder="Senha"/>
+        <label for="password">Senha:</label>
+        <input type="password" size="20" in="password" placeholder="Digite aqui a sua senha"/>
         <input type="submit" value="Enviar"/>
     </form>
 </body>
